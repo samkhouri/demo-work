@@ -1,0 +1,18 @@
+Plugin Name: Book Manager with Laravel Integration
+Description: Manages a "Books" custom post type and integrates with a Laravel microservice.
+Version: 1.0
+Author: Sam Khouri
+
+
+***Features***
+- Custom Post Type: Creates "Books" with attributes like name and genre.
+- Admin Management: Adds a meta box in the WordPress Admin to input a book’s genre.
+- Laravel Integration: Fetches recommendations or additional data for books from an external Laravel-based microservice.
+- Front-End Display: Displays books, including their genre and Laravel-provided recommendation, using a [display_books] shortcode.
+
+
+***How to use***
+- Save the plugin code as books-laravel-wp-plugin.php in the wp-content/plugins/ directory of your WordPress site.
+- Activate the plugin in the WordPress Admin Dashboard.
+- Add new books through the "Books" menu in the admin.
+- Use the [display_books] shortcode in a WordPress post or page to display the list of books and their recommendations.
